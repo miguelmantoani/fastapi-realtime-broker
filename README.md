@@ -1,4 +1,4 @@
-Broker Real-Time com FastAPI e WebSockets
+🚀 Broker Real-Time com FastAPI e WebSockets
 Um sistema de mensageria simples e em tempo real, construído com FastAPI, que utiliza WebSockets para comunicação instantânea e SQLite para persistência de dados. O projeto funciona como um "broker" onde clientes podem se inscrever em tópicos para receber mensagens ao vivo.
 
 🎯 Principais Funcionalidades
@@ -71,7 +71,17 @@ Você também pode enviar mensagens através da API.
 
 Endpoint: POST /send
 
-Exemplo com curl:
-curl -X POST "http://localhost:8000/send?topic=financas&content=nova transacao recebida"
+Exemplo com curl: curl -X POST "http://localhost:8000/send?topic=financas&content=nova transacao recebida"
+
+🤝 Como Contribuir
+Faça um fork do projeto.
+
+Crie uma nova branch (git checkout -b feature/minha-feature).
+
+Faça o commit das suas alterações (git commit -m 'Adiciona minha-feature').
+
+Faça o push para a branch (git push origin feature/minha-feature).
+
+Abra um Pull Request.
 
 Desenvolvido por Miguel Mantoani.
